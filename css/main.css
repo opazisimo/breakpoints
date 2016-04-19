@@ -10,6 +10,14 @@ Breakpoints:
 	text-align: center;
 }
 
+body {
+	background-color: Crimson;
+}  /* estilo por defecto  */ 
+
+.container, img {
+	max-width: 100%;
+} /* para que siempre esté centrado y no se deforma la imagen*/ 
+
 @media (min-width : 320px) and (max-width: 375px) {
 	body {
 		background-color: green;
